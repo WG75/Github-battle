@@ -19,7 +19,7 @@ class Tabs extends React.Component{
     const languages = ['All', 'Javascript', 'Ruby', 'Python', 'Java', 'Css']
 
     return (
-              <ul>
+              <ul className="tabs">
                 {languages.map((lang) => {
                   return (<li key={lang}
                               onClick={this.updateActiveTab.bind(null, lang)}
