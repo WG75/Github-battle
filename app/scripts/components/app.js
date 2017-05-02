@@ -1,11 +1,11 @@
 import React from 'react'
-import Tabs from './Tabs'
+import Popular from './popular'
 
 
 class App extends React.Component{
   render(){
     return(
-      <Tabs />
+      <Popular />
     )
   }
 }
